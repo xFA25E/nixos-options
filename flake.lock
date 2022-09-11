@@ -1,0 +1,41 @@
+{
+  "nodes": {
+    "eldev": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1662672849,
+        "narHash": "sha256-yna3SPVUb6Dzt0Wrl7EY05oNrGHSFVJL1QFhUKNb3DQ=",
+        "owner": "doublep",
+        "repo": "eldev",
+        "rev": "659f4d9c97a44cf29ded5594b3f5de8da99ec973",
+        "type": "github"
+      },
+      "original": {
+        "owner": "doublep",
+        "ref": "1.2.2",
+        "repo": "eldev",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 0,
+        "narHash": "sha256-2f5NzHbi1NLSYnDg6cRu25B+XRxqngicvggg+0GgKHI=",
+        "path": "/nix/store/ps7746rfm0is1rl5mgsq6q3yd9c0qbfn-source",
+        "type": "path"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "root": {
+      "inputs": {
+        "eldev": "eldev",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
